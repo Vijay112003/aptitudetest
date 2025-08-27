@@ -1,108 +1,115 @@
 const questions = [
     {
-        q: "A merchant sells a watch at 15% profit. If sold for ₹150 more, the profit becomes 25%. Find the cost price.",
-        tip: "Example: 500"
-    },
-    {
-        q: "A merchant uses 900g instead of 1kg and adds 10% adulteration. Find his total gain percentage.",
-        tip: "Example: 15% gain"
-    },
-    {
-        q: "A fruit vendor sells 10 apples for ₹6 at 20% profit. How many apples did he buy for ₹6?",
+        q: "A book was sold for 27.50 with a profit of 10%. If it were sold for 25.75, then what would have been the percentage of profit or loss?",
         tip: "Example: 15"
     },
     {
-        q: "A businessman sells two articles at ₹2,000 each, gaining 10% on one and losing 10% on the other. Show he always loses and find the loss percentage.",
-        tip: "Example: 5% loss"
+        q: "By selling 33 metres of cloth, one gains the selling price of 11 metres. Find the gain percent.",
+        tip: "Example: 75"
     },
     {
-        q: "A merchant uses 950g instead of 1kg and gives a 10% discount. Find his gain percentage.",
-        tip: "Example: 8% profit"
+        q: "If the manufacturer gains 10%, the wholesale dealer 15% and the retailer 25%, then find the cost of production of a table, the retail price of which is 1265 ?",
+        tip: "Example: 300"
     },
     {
-        q: "If CP:SP = 5:6 and SP:MP = 4:5, find the discount % and profit %.",
-        tip: "Example: Profit 10%, Discount 10%"
+        q: "The price of a jewel, passing through three hands, rises on the whole by 65%. If the first and the second sellers earned 20% and 25% profit respectively, find the percentage profit earned by the third seller.",
+        tip: "Example: 20"
     },
     {
-        q: "A trader earns 20% profit by selling at ₹720. At what price should he sell to gain 40%?",
+        q: "A retailer buys 40 pens at the marked price of 36 pens from a wholesaler. If he sells these pens giving a discount of 1%, what is the profit percent?",
+        tip: "Example: 50"
+    },
+    {
+        q: "Jacob bought a scooter for a certain sum of money. He spent 10% of the cost on repairs and sold the scooter for a profit of 1100. How much did he spend on repairs if he made a profit of 20%?",
+        tip: "750"
+    },
+    {
+        q: "Abhishek purchased 140 shirts and 250 trousers @ 450 and @ 550 respectively. What should be the overall average selling price of shirts and trousers so that 40% profit is earned? (rounded off to next integer)",
         tip: "Example: 820"
     },
     {
-        q: "A shopkeeper buys two articles at the same price, sells one at 20% profit and the other at 20% loss. Find his overall loss percentage.",
-        tip: "Example: 5% loss"
+        q: "By selling a bicycle for 2850, a shopkeeper gains 14%. If the profit is reduced to 8% then the selling price will be",
+        tip: "Example: 1200"
     },
     {
-        q: "A trader marks an article 40% above CP and gives successive discounts of 20% and 10%. Find profit or loss percentage.",
-        tip: "Example: 2% loss"
+        q: "When an article is sold for 116, the profit percent is thrice as much as when it is sold for 92. The cost price of the article is ",
+        tip: "Example: 60"
     },
     {
-        q: "A trader buys two articles at 25% and 40% discount, sells both at MP. If total MP = ₹8,000, find overall gain percentage.",
-        tip: "Example: 35% gain"
+        q:"Mohan bought 20 dining tables for 12000 and sold them at a profit equal to the selling price of 4 dining tables. The selling price of 1 dining table is",
+        tip:"Example: 560"
     },
     {
-        q: "A fruit vendor sells 15 bananas for ₹10 at 25% profit. How many bananas did he buy for ₹10?",
-        tip: "Example: 10"
+        q:"By selling 100 pencils, a shopkeeper gains the selling price of 20 pencils. His gain percent is",
+        tip:"Example: 37"
     },
     {
-        q: "A seller sells 12 pens for ₹72 at 20% loss. How many pens must he sell for ₹72 to gain 20%?",
-        tip: "Example: 10"
+        q:"By selling 12 toffees for a rupee, a man loses 20%. How many for a rupee should he sell to get a gain of 20%?",
+        tip:"Example: 1"
     },
     {
-        q: "A businessman sells two articles at ₹4,000 each, gaining 25% on one and losing 25% on the other. Show he incurs an overall loss and find the loss amount.",
-        tip: "Example: 200 loss"
+        q:"A wholeseller buys 20 pens at the marked price of 16 pens to a retailer. The retailer in turn sells them at the marked price. Determine the gain or loss percent to the retailer.",
+        tip:"Example: 17"
     },
     {
-        q: "A person sells two horses for ₹20,000 each, gaining x% on one and losing x% on the other. Prove he always loses and find the loss % when x = 30.",
-        tip: "Example: 5% loss"
+        q:`<p>In terms of percentage profit, which is the best
+</p>
+<table class="table table-bordered table-striped w-auto mx-auto">
+    <thead>
+        <tr>
+            <th>Option</th>
+            <th>C.P. (in ₹)</th>
+            <th>Profit (in ₹)</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>(a)</td>
+            <td>36</td>
+            <td>17</td>
+        </tr>
+        <tr>
+            <td>(b)</td>
+            <td>50</td>
+            <td>24</td>
+        </tr>
+        <tr>
+            <td>(c)</td>
+            <td>40</td>
+            <td>19</td>
+        </tr>
+        <tr>
+            <td>(d)</td>
+            <td>60</td>
+            <td>29</td>
+        </tr>
+    </tbody>
+</table>`,
+        tip:"Example: Write any one option (a/b/c/d) only"
     },
     {
-        q: "A merchant sells an article at 20% loss. If sold for ₹480 more, there would be a 20% gain. Find the cost price.",
-        tip: "Example: 1000"
-    },
-    {
-        q: "A trader sells a cycle at 10% loss. If sold for ₹1,200 more, there would be 25% gain. Find the cost price.",
-        tip: "Example: 2500"
-    },
-    {
-        q: "If CP:SP = 7:8, find the profit %. If SP:CP = 5:7, find the loss %.",
-        tip: "Example: Profit 20%, Loss 20%"
-    },
-    {
-        q: "A chair is bought for ₹1,800 and sold at 15% loss. At what price should it be sold to gain 20%?",
-        tip: "Example: 2500"
-    },
-    {
-        q: "A trader marks an article 50% above CP and gives successive discounts of 20% and 10%. Find profit or loss percentage.",
-        tip: "Example: 15% loss"
-    },
-    {
-        q: "A trader buys two articles at 30% and 40% discount, sells both at MP. If total MP = ₹10,000, find overall gain percentage.",
-        tip: "Example: 20% gain"
+        q:"A gold bracelet is sold for 14500 at a loss of 20%. What is the cost price of the gold bracelet?",
+        tip:"Example: 181"
     }
 ];
 
 
 const answers = [
-    "1500",
-    "23.46% gain",
-    "12",
-    "1% loss",
-    "5.26% loss",
-    "Discount 20%, Profit 20%",
-    "840",
-    "0%",
-    "0.80% profit",
-    "48.15% gain",
-    "18.75",
+    "3",
+    "50",
+    "800",
+    "10",
+    "10",
+    "500",
+    "720",
+    "2700",
+    "80",
+    "750",
+    "25",
     "8",
-    "₹533.33 loss",
-    "Loss = x^2/100%; for x = 30 → 9% loss",
-    "₹1200",
-    "₹3428.57",
-    "Profit 14.29%, Loss 28.57%",
-    "₹2160",
-    "8% profit",
-    "53.85% gain"
+    "25",
+    "d",
+    "18125"
 ];
 
 const TIMER_DURATION = 240; // 4 min
@@ -129,6 +136,33 @@ if (localStorage.getItem(getCompletionKey())) {
                 <h2 class="mb-3">✅ You have already completed the test</h2>
                 <p>Your result was saved. Retake is not allowed.</p>
                 <h4 class="mt-3">Your Score: ${score} / ${questions.length}</h4>
+                <table>
+                    <thead>
+                        <tr>
+                            <th>#</th>
+                            <th>Question</th>
+                            <th>Your Answer</th>
+                            <th>Correct Answer</th>
+                            <th>Result</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        ${questions.map((q, i) => `
+                            <tr>
+                                <td>${i + 1}</td>
+                                <td>${typeof q.q === 'string' ? q.q : ''}</td>
+                                <td>${userAnswers[i] || ''}</td>
+                                <td>${answers[i]}</td>
+                                <td>
+                                    ${((userAnswers[i] || "").toLowerCase().replace(/\s+/g, '') ===
+                                        answers[i].toLowerCase().replace(/\s+/g, '')) ?
+                                        '<span class="text-success">✔️</span>' :
+                                        '<span class="text-danger">❌</span>'}
+                                </td>
+                            </tr>
+                        `).join('')}
+                    </tbody>
+                </table>
             </div>
         </div>
     `;
