@@ -1,3 +1,4 @@
+const topic = "Number Systems";
 const questions = [
     {
         q: "The sum of the greatest and smallest number of five digits is",
@@ -244,3 +245,6 @@ window.addEventListener('beforeunload', function (e) {
     e.preventDefault();
     e.returnValue = 'Leaving will close your test.';
 });
+
+document.getElementById('numberofquestions').textContent = questions.length;
+document.querySelectorAll('.topic').forEach(el => el.textContent = topic);
