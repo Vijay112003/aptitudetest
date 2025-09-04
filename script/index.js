@@ -1,116 +1,69 @@
 const questions = [
     {
-        q: "A book was sold for 27.50 with a profit of 10%. If it were sold for 25.75, then what would have been the percentage of profit or loss?",
-        tip: "Example: 15"
+        q: "The sum of the greatest and smallest number of five digits is",
+        tip: ""
     },
     {
-        q: "By selling 33 metres of cloth, one gains the selling price of 11 metres. Find the gain percent.",
-        tip: "Example: 75"
+        q: "If the largest three-digit number is subtracted from the smallest five-digit number, then the remainder is",
+        tip: ""
     },
     {
-        q: "If the manufacturer gains 10%, the wholesale dealer 15% and the retailer 25%, then find the cost of production of a table, the retail price of which is 1265 ?",
-        tip: "Example: 300"
+        q: "The smallest number of 5 digits beginning with 3 and ending with 5 will be",
+        tip: ""
     },
     {
-        q: "The price of a jewel, passing through three hands, rises on the whole by 65%. If the first and the second sellers earned 20% and 25% profit respectively, find the percentage profit earned by the third seller.",
-        tip: "Example: 20"
+        q: "What is the minimum number of four digits formed by using the digits 2, 4, 0, 7 ?",
+        tip: ""
     },
     {
-        q: "A retailer buys 40 pens at the marked price of 36 pens from a wholesaler. If he sells these pens giving a discount of 1%, what is the profit percent?",
-        tip: "Example: 50"
+        q: "There are just two ways in which 5 may be expressed as the sum of two different positive integers. In how many ways, 9 can be expressed as the sum of two different positive integers?",
+        tip: ""
     },
     {
-        q: "Jacob bought a scooter for a certain sum of money. He spent 10% of the cost on repairs and sold the scooter for a profit of 1100. How much did he spend on repairs if he made a profit of 20%?",
-        tip: "750"
+        q: "P and Q are two positive integers such that PQ = 64. Which of the following cannot be the value of P + Q? (a) 16 (b) 20 (c) 35 (d) 65",
+        tip: ""
     },
     {
-        q: "Abhishek purchased 140 shirts and 250 trousers @ 450 and @ 550 respectively. What should be the overall average selling price of shirts and trousers so that 40% profit is earned? (rounded off to next integer)",
-        tip: "Example: 820"
+        q: "If x + y + z = 9 and both y and z are positive integers greater than zero, then the maximum value x can take is",
+        tip: ""
     },
     {
-        q: "By selling a bicycle for 2850, a shopkeeper gains 14%. If the profit is reduced to 8% then the selling price will be",
-        tip: "Example: 1200"
+        q: "What is the sum of the squares of the digits from 1 to 9?",
+        tip: ""
     },
     {
-        q: "When an article is sold for 116, the profit percent is thrice as much as when it is sold for 92. The cost price of the article is ",
-        tip: "Example: 60"
+        q: "If n is an integer between 20 and 80, then any of the following could be n + 7 except (a) 47 (b) 58 (c) 84 (d) 88",
+        tip: ""
     },
     {
-        q:"Mohan bought 20 dining tables for 12000 and sold them at a profit equal to the selling price of 4 dining tables. The selling price of 1 dining table is",
-        tip:"Example: 560"
+        q: "If the numbers from 1 to 24, which are divisible by 2 are arranged in descending order, which number will be at the 8th place from the bottom?",
+        tip: ""
     },
     {
-        q:"By selling 100 pencils, a shopkeeper gains the selling price of 20 pencils. His gain percent is",
-        tip:"Example: 37"
+        q: "2 – 2 + 2 – 2 + .......... 101 terms = ?",
+        tip: ""
     },
     {
-        q:"By selling 12 toffees for a rupee, a man loses 20%. How many for a rupee should he sell to get a gain of 20%?",
-        tip:"Example: 1"
-    },
-    {
-        q:"A wholeseller buys 20 pens at the marked price of 16 pens to a retailer. The retailer in turn sells them at the marked price. Determine the gain or loss percent to the retailer.",
-        tip:"Example: 17"
-    },
-    {
-        q:`<p>In terms of percentage profit, which is the best
-</p>
-<table class="table table-bordered table-striped w-auto mx-auto">
-    <thead>
-        <tr>
-            <th>Option</th>
-            <th>C.P. (in ₹)</th>
-            <th>Profit (in ₹)</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td>(a)</td>
-            <td>36</td>
-            <td>17</td>
-        </tr>
-        <tr>
-            <td>(b)</td>
-            <td>50</td>
-            <td>24</td>
-        </tr>
-        <tr>
-            <td>(c)</td>
-            <td>40</td>
-            <td>19</td>
-        </tr>
-        <tr>
-            <td>(d)</td>
-            <td>60</td>
-            <td>29</td>
-        </tr>
-    </tbody>
-</table>`,
-        tip:"Example: Write any one option (a/b/c/d) only"
-    },
-    {
-        q:"A gold bracelet is sold for 14500 at a loss of 20%. What is the cost price of the gold bracelet?",
-        tip:"Example: 181"
+        q: "98th term of the infinite series 1, 2, 3, 4, 1, 2, 3, 4, ... is",
+        tip: ""
     }
 ];
 
-
 const answers = [
-    "3",
-    "50",
-    "800",
-    "10",
-    "10",
-    "500",
-    "720",
-    "2700",
-    "80",
-    "750",
-    "25",
-    "8",
-    "25",
-    "d",
-    "18125"
+    "109999",
+    "9001",
+    "30005",
+    "2047",
+    "4",
+    "35",
+    "7",
+    "285",
+    "88",
+    "16",
+    "2",
+    "2"
 ];
+
 
 const TIMER_DURATION = 240; // 4 min
 let currentIndex = 0;
